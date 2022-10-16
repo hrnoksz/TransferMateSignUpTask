@@ -49,8 +49,10 @@ public class BasePage {
 
     @FindBy(xpath = "//div[@id='register_email_error']")
     public WebElement registerEmailErrorMessage;
-
+/*
     @FindBy(xpath = "//div[contains(@id,'error')][@class='err'][contains(.,'Already exists!')]")
     public WebElement alreadyExistMessage;
+
+ */
 
 }
